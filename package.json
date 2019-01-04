@@ -21,8 +21,17 @@
       "category": "your.app.soft.type",
       "target": [
         "zip",
-        "dmg",
+        "dmg"
+       
+      ]
+    },
+    "win": {
+      "category": "your.app.soft.type",
+      "target": [
+        "zip",
         "exe"
+        
+       
       ]
     },
     "publish": [
