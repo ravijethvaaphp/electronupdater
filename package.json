@@ -1,6 +1,6 @@
 {
   "name": "electronupdater",
-  "version": "1.7.3",
+  "version": "1.7.4",
   "main": "main.js",
   "description": "electronupdater  project",
   "author": "Ravi Jethva",
@@ -21,7 +21,8 @@
       "category": "your.app.soft.type",
       "target": [
         "zip",
-        "dmg"
+        "dmg",
+        "exe"
       ]
     },
     "publish": [
