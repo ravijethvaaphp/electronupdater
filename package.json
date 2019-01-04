@@ -1,6 +1,6 @@
 {
   "name": "electronupdater",
-  "version": "1.7.4",
+  "version": "1.7.5",
   "main": "main.js",
   "description": "electronupdater  project",
   "author": "Ravi Jethva",
@@ -28,8 +28,13 @@
     "win": {
       "category": "your.app.soft.type",
       "target": [
-        "zip",
-        "exe"
+        {
+          "target": "nsis-web",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        }
         
        
       ]
